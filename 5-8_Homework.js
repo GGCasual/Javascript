@@ -180,6 +180,18 @@
 // Hello, world! 
 // Hello, world!
 // You are allowed to use a loop in the implementation of callNTimes.
+// function fun(){
+//     console.log("Hello, world!");
+// }
+
+// function fiveTimes(num, fun){
+//     for (var i = 0; i < num; i++){
+//         fun();
+//     }
+
+// }
+// fiveTimes(5, fun);
+
 
 
 
@@ -189,7 +201,10 @@
 
 // > sum([1, 2, 3]) 
 // 6
-
+// function sum(arr){
+//     return arr.reduce((x, y) => x + y);
+// }
+// console.log(sum([1,2,3]));
 
 
 
@@ -198,3 +213,8 @@
 
 // > acronym(['very', 'important', 'person']) 
 // 'VIP' > acronym(['national', 'aeronautics', 'space', 'administration']) 'NASA'
+function acronym(arr){
+    return arr.reduce(((x,y) => x + y.slice(0,1)), '').toUpperCase();
+}
+
+console.log(acronym(['very', 'cool', 'dude']));
