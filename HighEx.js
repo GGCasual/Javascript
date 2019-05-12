@@ -1,9 +1,10 @@
 var main = document.getElementById("container")
 var div1 = document.createElement("div") //FIRST DIV
-div1.textContent = "Hello"
+div1.textContent = "High on Coding"
 main.appendChild(div1)
 
 div1.setAttribute("class", "bg-primary")
+
 
 
 
@@ -14,11 +15,14 @@ div2.textContent = "Curse of the Current Reviews"
 div2.setAttribute("class", "bg-secondary")
 
 
+
+
 var div3 = document.createElement("div") //THIRD DIV
 main.appendChild(div3)
 div3.textContent = "Hello WatchKit"
 
 div3.setAttribute("class", "text-primary")
+
 
 
 
