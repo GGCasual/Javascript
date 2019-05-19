@@ -1,0 +1,33 @@
+<body>
+
+    <p id="demo">Nothing</p>
+
+
+
+
+<script>
+
+    let people = []
+    let html = ""
+    let person = {
+        fName:'Chase',
+        lName:'Brumfield',
+        city:'New Orleans'
+    }
+
+    let myHTML = (p) => {
+        return `
+        <h1>${p.fName} ${p.lName}</h1>
+        <p>${p.city}</p>
+        `
+    }
+
+    people.forEach(p => {
+        html += myHTML(p)
+    });
+
+    document.querySelector('#demo').innerHTML = myHTML()
+    // document.getElementById("demo")  ////either or with above
+
+
+</script></body>

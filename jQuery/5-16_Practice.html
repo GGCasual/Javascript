@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <style>
+        header{
+            background-color: pink;
+            height: 300px;
+            width: 100%;
+
+        }
+
+        .mainStyle{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    
+
+<header>
+    <h1>Digital Crafts</h1>
+    <h2>Coding Bootcamp</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel impedit minima quam ea possimus distinctio ipsum reiciendis porro ducimus asperiores? Rerum nostrum aliquam officiis quod ratione aut eos nesciunt itaque!</p>
+</header>
+
+
+<main>
+    <p class="mainStyle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore reprehenderit nesciunt numquam debitis obcaecati animi aliquid veniam, in maxime a? Optio asperiores provident ipsam accusantium, nihil incidunt alias quisquam odit?</p>
+</main>
+
+
+    <script 
+    src="http://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script> 
+
+
+    <script>
+        // $(document).ready(function(){       ///old way/ long way to call a jquery
+        //     //jquery code
+        // })
+
+        $(function(){                           //fast way to call jquery
+            //jquery code
+            $('#puppies')
+            $('.mainStyle')
+            $('p')
+        })
+    
+    </script>
+</body>
+</html>
