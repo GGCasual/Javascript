@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+.container{
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#temp{
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    color: yellow;
+    left: 0;
+    top: 15%;
+    width: 100%;
+}
+
+.text{
+    font-style: oblique;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+}
