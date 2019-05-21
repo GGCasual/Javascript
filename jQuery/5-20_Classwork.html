@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script> //SEE THE TYPE OF THING AND CONVERT IT 
+        let objJSONString = '{"name": "DC", "location": "Houston"}' //string
+        console.log(objJSONString)
+        console.log(typeof(objJSONString))
+        let objJSONString = JSON.parse(objJSONString); //object
+        console.log(objJSONString)
+        console.log(objJSONString.location)
+        let convertobjJSONString = JSON.stringify(objJSONString)
+        console.log(typeof(objJSONString))
+    </script> -->
+
+
+    hi
+
+    <script>
+        var apiRequest = new XMLHttpRequest()
+        let httpMethod = "GET" //Ex: GET, Post, Delete, Put
+        let url = "https://developer.mozilla.org/en-US/";
+        apiRequestObject.open(httpMethod, url, true) 
+        apiRequestObject.onreadystatechange = function() {
+            //waiting for changes in state of transmission of xhr obj
+
+            if(apiRequestObject.readyState === 4 && apiRequestObject.status === 200) {
+                console.log(apiRequestObject.responseText)
+
+            }
+        }
+        apiRequestObject.send();
+    </script>
+</body>
+</html>
